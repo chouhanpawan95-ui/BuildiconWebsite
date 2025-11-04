@@ -8,7 +8,7 @@ import { TextField, Button, Checkbox, FormControlLabel, Typography, Box, Alert, 
  *   import EnquiryForm from './EnquiryForm';
  *   <EnquiryForm submitUrl="/api/enquiry" />
  */
-export default function Contact({ submitUrl = "/api/enquiry", onSuccess }) {
+export default function Contact({ submitUrl = "http://localhost:5000/api/enquiries", onSuccess }) {
       
   const [form, setForm] = useState({
     name: "",

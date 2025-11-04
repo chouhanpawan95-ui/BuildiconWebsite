@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 export default function Footer() {
-  return (
-    <div>
-         <div className="container-fluid bg-dark text-white-50 footer pt-5">
+  return (  
+         <div className="container-fluid bg-dark text-white-50 footer pt-5" >
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
@@ -48,6 +47,6 @@ export default function Footer() {
         </div>
     </div>
   
-    </div>
+   
   )
 }
